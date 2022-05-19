@@ -242,9 +242,9 @@ h6,
 
 header.masthead {
   padding-top: 150px;
-  background: url("../img/garage-door-repair-omaha-header-bg.jpg");
+  background: url("../img/hero-bg.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center bottom;
   min-height: 77vh;
 }
 .sticky-btn {

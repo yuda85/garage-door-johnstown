@@ -5,6 +5,17 @@ div.hero-content {
     margin-bottom: 60px;
 }
 
+/** Logo **/
+.navbar .navbar-brand {
+    display: block;
+}
+.navbar .navbar-brand>img {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+}
+
+/** Hero Form **/
 div.hero-form-container {
     min-height: 558px;
     padding-top: 80px;
@@ -57,10 +68,10 @@ div.hero-form-container {
 .service--img {
     position: relative;
     max-width: 255px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     z-index: 0;
 }
-.service--img:before {
+/* .service--img:before {
     content: "";
     display: block;
     padding-bottom: 100%;
@@ -77,4 +88,4 @@ div.hero-form-container {
     object-position: center;
     border-radius: 50%;
     box-shadow: 0 0 10px 5px rgb(0 0 0 / 20%);
-}
+} */
